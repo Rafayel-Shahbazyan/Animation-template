@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/lab.jpg);
+	background-repeat: no-repeat;
+	background-size: 70% 90%;
+	/*position: relative;*/
+}
+div{
+	width: 30px;
+	height: 30px;
+	background-color: green;
+	border-radius:150px; 
+	/*position: absolute;*/
+	/*left: 425px;*/
+	animation-name: lab;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-direction:alternate;
+}
+@keyframes lab{
+	0%{
+		
+	}
+	8%{
+		transform: translate(420px);
+	}
+	16%{
+		transform: translate(420px,60px);
+	}
+	24%{
+		transform: translate(580px,60px);
+	}
+	32%{
+		transform: translate(580px,150px);
+	}
+	40%{
+		transform: translate(500px,150px);
+	}
+	48%{
+		transform: translate(500px,195px);
+	}
+	56%{
+		transform: translate(580px,195px);
+	}
+	64%{
+		transform: translate(580px,241px);
+	}
+	72%{
+		transform: translate(661px,241px);
+	}
+	80%{
+		transform: translate(661px,375px);
+	}
+	88%{
+		transform: translate(420px,375px);
+	}
+	96%{
+		transform: translate(420px,418px);
+	}
+	98%{
+		transform: translate(500px,418px);
+	}
+	100%{
+		transform: translate(500px,520px);
+	}
+}
